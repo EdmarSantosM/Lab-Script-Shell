@@ -13,3 +13,7 @@ echo -e " Usuário do sistema : \e[1;34m $USER \e[0m"
 
 echo ""
 echo -e " Diretório atual \e[1;34m $PWD \e[0m"
+
+echo ""
+echo -e " Diretório Home do Usuário \e[1;34m $HOME \e[0m"
+
