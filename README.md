@@ -11,7 +11,7 @@ para diferenciar visualmente o resultado.
 * \033 Octal
 
 # Exemplo:
-echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
+echo -e " (\e[1;34m Utilização / Livre) \e[0m"
 
 
 \033 (Escape Character in Octal ASCII )                   
