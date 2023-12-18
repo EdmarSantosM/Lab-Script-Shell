@@ -21,8 +21,9 @@ echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
 m text (Final Byte)
 
 
-CSI - (Introdutor de sequência de controle)
+* CSI - (Introdutor de sequência de controle) - \033[
 
+ 
 # Código de algumas cores
 
 Black        0;30     Dark Gray     1;30
