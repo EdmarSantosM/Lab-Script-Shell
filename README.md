@@ -4,21 +4,31 @@
 Neste script utilizei no comando   "echo" a implemetação do código de escape <b>ANSI</b> 
 para diferenciar visualmente o resultado.
 
-<b>Eles iniciam:</b>
+#Eles iniciam:
+
 \x1B Hexadecimal
 \033 Octal
 
 Exemplo:
+echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
 
       CSI 
 |-----------------|
-\033              [0;32         m text
-Escape Character  Color Code    Final Byte
+
+\033                   
+Escape Character    
 in Octal ASCII 
+
+[0;32  
+Color Code 
+
+m text
+Final Byte
+
 
 CSI - (Introdutor de sequência de controle)
 
-<b>Código de algumas cores</b>
+#Código de algumas cores
 
 Black        0;30     Dark Gray     1;30
 Red          0;31     Light Red     1;31
