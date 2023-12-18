@@ -1,19 +1,17 @@
 # Lab-Script-Shell
  Labotórios de pratica de Script (Shell /Bash)
 
-Neste script utilizei no comando   "echo" a implemetação do código de escape <b>ANSI</b> 
+Neste script utilizei no comando   "echo" a implemetação do código de escape ANSI 
 para diferenciar visualmente o resultado.
 
-#Eles iniciam:
+# Eles iniciam:
 
 \x1B Hexadecimal
 \033 Octal
 
-Exemplo:
+# Exemplo:
 echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
 
-      CSI 
-|-----------------|
 
 \033 (Escape Character in Octal ASCII )                   
     
@@ -24,7 +22,7 @@ m text (Final Byte)
 
 CSI - (Introdutor de sequência de controle)
 
-#Código de algumas cores
+# Código de algumas cores
 
 Black        0;30     Dark Gray     1;30
 Red          0;31     Light Red     1;31
