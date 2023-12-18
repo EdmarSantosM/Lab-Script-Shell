@@ -21,13 +21,8 @@ echo ""
 echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
 echo " -------------------------------------------------------------------------------- "
 free -h  # Comando no Linux 
-mem
+# mem
 echo " -------------------------------------------------------------------------------- "
-
-# echo ""
-# echo " Teste no  Windows"
-# systeminfo
-# echo ""
 
 echo ""
 echo -e " Discos (\e[1;34m SDA / Partiçoes \e[0m)"
