@@ -15,15 +15,11 @@ echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
       CSI 
 |-----------------|
 
-\033                   
-Escape Character    
-in Octal ASCII 
+\033 (Escape Character in Octal ASCII )                   
+    
+[0;32  (Color Code )
 
-[0;32  
-Color Code 
-
-m text
-Final Byte
+m text (Final Byte)
 
 
 CSI - (Introdutor de sequência de controle)
