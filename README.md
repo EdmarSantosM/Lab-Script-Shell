@@ -1,13 +1,14 @@
 # Lab-Script-Shell
  Labotórios de pratica de Script (Shell /Bash)
 
-Neste script utilizei no comando   "echo" a implemetação do código de escape ANSI 
+Neste script utilizei no comando  "echo" a implemetação do código de escape ANSI 
 para diferenciar visualmente o resultado.
 
 # Eles iniciam:
 
-\x1B Hexadecimal
-\033 Octal
+* \x1B Hexadecimal
+
+* \033 Octal
 
 # Exemplo:
 echo -e " Memória (\e[1;34m Utilização / Livre) \e[0m"
